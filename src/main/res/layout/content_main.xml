@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/content_main"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="clip_vertical"
+              android:background="@drawable/gradient"
+              android:orientation="horizontal"
+              android:animateLayoutChanges="true"
+              app:layout_behavior="@string/appbar_scrolling_view_behavior"
+              tools:context="kz.talipovsn.database.MainActivity"
+              tools:showIn="@layout/activity_main"
+    >
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch1"
+            android:layout_width="150dp"
+            android:layout_height="10dp"
+            android:checked="false"
+            android:text="По цене"
+            app:showText="false"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="263dp"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:gravity="center"
+            android:hint="@string/Введите_название_модели"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/price"
+       android:visibility="gone" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="none|web|email|phone|map|all"
+            android:clickable="false"
+            android:gravity="start"
+            android:paddingBottom="5dp"
+            android:paddingEnd="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingStart="5dp"
+            android:paddingTop="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textIsSelectable="true"/>
+    </ScrollView>
+
+
+</TableLayout>

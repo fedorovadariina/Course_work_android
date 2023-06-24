@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Стиральные машины</string>
+    <string name="Введите_название_модели">Название модели</string>
+    <string name="Загрузка_данных">Загрузка данных…</string>
+    <string name="Выход">Выход</string>
+    <string name="Написать_предложение_автору">Написать предложение автору</string>
+    <string name="myemail">example@mail.com</string>
+    <string name="Добавьте_еще_номер">Добавьте еще номер</string>
+    <string name="Предлагаю_такой_номер">Предлагаю такой номер в вашу программу:</string>
+    <string name="Посылка_письма">Посылка письма…</string>
+    <string name="Нет_установленного_почтового_клиента">Нет установленного почтового клиента, увы (</string>
+    <string name="Большой_шрифт">Большой шрифт</string>
+    <string name="Далее">Далее</string>
+    <string name="Назад">Назад</string>
+    <string name="Тема"> Разработка многооконного мобильного приложения для
+    Android с использованием базы данных SQLite для предметной области Стиральные машины</string>
+
+
+
+
+
+    <string-array name="price">
+        <item>дешевле 100 000</item>
+        <item>от 100 000 до 200 000</item>
+        <item>от 200 000 до 300 000</item>
+        <item>от 300 000 до 400 000</item>
+        <item>дороже 400 000</item>
+    </string-array>
+</resources>
